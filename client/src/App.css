@@ -1,0 +1,300 @@
+body {
+    font-family: "Shadow Into Light";
+    color: #696969;
+    
+}
+
+.logo {
+    height: 70%;
+    width: 70px;
+}
+
+
+/* HOME */
+.p-title {
+    text-align: center;
+    margin-top: 35px;
+}
+.part1 {
+    display: flex;
+    margin-left: 46px;
+    margin-top: 40px;
+}
+.abt-txt {
+    display: grid;
+    padding-left: 40px;
+    grid-template-rows: repeat(3, min-content) 1fr;
+    grid-template-columns: 100%;
+    justify-content: center;
+}
+.abt-link {
+    padding-left: 33px;
+    color: black;
+    
+}
+.abt-link:hover {
+    color: #4f4f4f;
+    font-weight: bolder;
+    font-size: 25px;
+}
+
+.title-slide {
+    font-family: 'Lora', 'serif';
+    font-style: italic;
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+a {
+    text-decoration: none;
+   
+    transition: all 0.3s;
+    cursor: pointer;
+
+}
+.title-slide:hover {
+    color: black;
+}
+.slide-more {
+    font-weight: bold;
+    color: #ffffff;
+}
+.slide-more:hover {
+    color: black;
+}
+.h-q {
+    border-top: #696969 solid 4px;
+    border-bottom: #00818e solid 4px;
+    margin-top: 40px;
+    
+}
+
+
+/* ABOUT */
+.about {
+    text-decoration: none;
+    color: #808080;
+    font-size: 23px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.about:hover {
+    color: white;
+    font-weight: bolder;
+    font-size: 25px;
+    transition: all 0.5s ease-in-out;
+}
+.comp-body {
+    box-sizing: border-box;
+    display: block;
+    background-color: #f2f2f2;
+    padding-right: 200px;
+    padding-left: 200px;
+}
+.abt-h h1 {
+    padding-top: 30px;
+    padding-left: 18px;
+    font-size: 30px;
+    margin-bottom: 25px;
+    font-family: "Shadow Into Light";
+}
+.comp-container {
+    display: block;
+    background-color: #fff;
+    border-radius: 6px;
+}
+.abt-img {
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding-top: 20px;
+}
+.abt-content {
+    color: black;
+    padding-left: 26px;
+    padding-top: 25px;
+    font-size: 18px;
+}
+#footer {
+    background-color: #e5dbd0;
+    padding: 30px 0;
+    text-align: center;
+    width: 100%;
+}
+.footer-block {
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-color: #fff;
+    background-size: 100%;
+    min-height: 430px;
+    padding: 24px 16px;
+    font-size: 14px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+.footer-block-participate {
+    background-image: url("https://cdn-prd.content.metamorphosis.com/wp-content/uploads/sites/2/2020/06/shutterstock_1049672672-2-768x512.jpg");
+}
+.footer-block-participate1 {
+    background-image: url("https://www.moneycrashers.com/wp-content/uploads/2013/03/volunteer-help-search-team-work-support-1068x713.jpg");
+}
+.col-md-4 {
+    float: left;
+    padding-left: 60px;
+}
+
+/* DASHBOARD */
+.dashboard {
+    text-decoration: none;
+    color: #808080;
+    font-size: 23px;
+}
+.dashboard:hover {
+    color: white;
+    font-weight: bolder;
+    transition: all 0.5s ease-in-out;
+}
+.card {
+    
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0);
+    max-width: 300px;
+    height: 490px;
+    margin: auto;
+    background-color: white;
+    text-align: center;
+    border-radius: 40px;
+    padding-bottom: 15px;
+    
+}
+.user-img {
+    height: 9px;
+    width: 15px;
+}
+
+/* ADOPTION */
+.adoption {
+    text-decoration: none;
+    color: #808080;
+    font-size: 23px;
+    padding-right: 10px;
+}
+.adoption:hover {
+    color: white;
+    font-weight: bolder;
+    transition: all 0.5s ease-in-out;
+}
+.adopt-text {
+    display: block;
+    box-sizing: border-box;
+    width: 90%;
+    background-color: white;
+    height: 50%;
+}
+#r-adopt {
+    background-color: #e5dbd0;
+    color: black;
+    font-size: 18px;
+    padding: 20px;
+    padding-left: 218px;
+    padding-right: 218px;
+    width: 100%;
+}
+.adopt-h h1 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 18px;
+    font-size: 30px;
+    margin: 0;
+    font-family: "Shadow Into Light";
+}
+.view-adopt {
+    display: block;
+    background-color: #fff;
+}
+.adopt-container {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.adopt-container h3 {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 30px;
+    font-weight: bold;
+    color: #22303C;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    text-transform: none;
+}
+.adopt-container span {
+    font-size: 20px;
+}
+
+
+/* footer */
+.footer-container {
+    background-color: #41392e;
+    padding: 20px, 0 50px 0;
+    display: block;
+    text-align: center;
+}
+.f-container {
+    width: 80%;
+    display: inline-block;
+}
+.f-container h4 {
+    color: #fff;
+    font-size: 36px;
+    text-align: center;
+    padding-top: 15px;
+    margin-bottom: 30px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #95918c;
+}
+.f-row {
+    margin-left: -35px;
+    margin-right: -10px;
+}
+.border-right {
+    border-right: 1px solid #95918c;
+    width: 50%;
+}
+.f-container p {
+    color: #fff;
+    font-size: 18px;
+    line-height: 18px;
+    margin-bottom: 15px;
+}
+.f-container span {
+    color: #95918c;
+    display: block;
+}
+
+.f-social li {
+    display: inline-block;
+}
+.f-container a {
+    color: #95918c;
+}
+.f-social li a {
+    border-color: #95918c;
+    padding-right: 5px;
+    margin-left: 5px;
+    margin: 0 10px;
+    height: 36px;
+}
+
+.f-menu {
+    display: flex;
+    list-style: none;
+    padding-left: 15px;
+    
+}
+
+.footer-disclaimer {
+    float: right;
+    margin-top: -90px;
+    padding-right: 130px;
+}
